@@ -3,8 +3,8 @@
 from datetime import date, timedelta
 import random
 
-# intruduction
-def intruduction():
+# introduction
+def introduction():
     print(
 '''Birthday Paradox, by Al Sweigart al@inventwithpython.com
     
@@ -44,7 +44,7 @@ def getMatchBirthday(birthdays):
                 return birthdayA
 
 
-intruduction()
+introduction()
 
 # tuple for 12 months
 MONTHS = (
@@ -105,5 +105,5 @@ probability = round(simMatch/100_000*100, 2)
 print('Out of 100, 000 simulations of',numBDays,'people, there was a')
 print('matching birthday in that group',simMatch,'times. This means')
 print('that',numBDays,'people have a ',probability,'% chance of')
-print('having a matching birthday in their group.')
-print('That\'s probably more than you would think!\n')
+print('having a matching birthday in their group.\n')
+print('That\'s probably more than you would think!🫣\n')
