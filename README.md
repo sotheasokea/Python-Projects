@@ -39,6 +39,7 @@ I don't just want to finish 81 projects — I want to understand *why* each line
 ## Progress
 
 - [x] Bagels
+- [x] Birthday Paradox
 - [ ] More projects coming as I work through the book...
 
 ---
